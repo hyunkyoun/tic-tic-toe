@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="main.js"></script>
+
+<body>
+
+<h1>Tic Tac Toe</h1>
+
+<div class="container">
+    <div class="right">
+        <button class="button-group restart" onclick="restart()">Restart</button>
+        <button class="button-group end" onclick="endGame()">End Game</button>
+    </div>
+
+    <div class="center">
+
+        <table class="center" rules="all">
+            <tr>
+                <th> <button id="0" class="button" onclick="game(this.id)"></button> </th>
+                <th> <button id="1" class="button" onclick="game(this.id)"></button> </th>
+                <th> <button id="2" class="button" onclick="game(this.id)"></button> </th>
+            </tr>
+            <tr>
+                <th> <button id="3" class="button" onclick="game(this.id)"></button> </th>
+                <th> <button id="4" class="button" onclick="game(this.id)"></button> </th>
+                <th> <button id="5" class="button" onclick="game(this.id)"></button> </th>
+            </tr>
+            <tr>
+                <th> <button id="6" class="button" onclick="game(this.id)"></button> </th>
+                <th> <button id="7" class="button" onclick="game(this.id)"></button> </th>
+                <th> <button id="8" class="button" onclick="game(this.id)"></button> </th>
+            </tr>
+            </table>
+
+    </div>
+</div>
+
+</body>
+</html>
+
